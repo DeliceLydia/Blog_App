@@ -61,5 +61,5 @@ group :production do
 end 
 
 group :development, :test do 
-  gem "pg" 
+  gem "" 
 end 

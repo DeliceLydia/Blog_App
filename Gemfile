@@ -5,6 +5,8 @@ gem 'rubocop', '~>0.81.0'
 
 ruby '2.7.2'
 
+gem 'pg'
+
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 6.0.3', '>= 6.0.3.4'
 
@@ -56,10 +58,3 @@ end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: %i[mingw mswin x64_mingw jruby]
-group :production do 
-  gem 'pg' 
-end 
-
-group :development, :test do 
-  gem "" 
-end 
